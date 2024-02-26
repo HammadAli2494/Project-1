@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-inline: 8px;
+}
+.header-bar1
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0px 0px 8px gray;
+    position: fixed;
+    padding: 10px 20px;
+    z-index: 1;
+    background-color: white;
+    
+}
+.header-right p{
+    font-size: small;
+}
+.header-bar a{
+    text-decoration: none;
+    color:rgb(50, 50, 50);
+    transition:all 0.2s;
+    font-size: small;
+}
+.cover-photo{
+    background-image: url(assets/images/architect.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+mark{
+    background-color: rgba(0, 0, 0, 0.409);
+    color: white;
+    padding: 5px;
+}
+.header-bar a:hover{
+    color: rgba(133, 127, 127, 0.745);
+}
+h3{
+    font-weight: 400;
+}
+.project{
+    margin-block: 40px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    width: 24%;
+    height: 30vh;
+    margin-bottom: 15px;
+}
+.box1
+{
+    background-image: url(assets/images/house5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box2
+{
+    
+    background-image: url(assets/images/house2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box3
+{
+    
+    background-image: url(assets/images/house3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box4
+{
+    
+    background-image: url(assets/images/house4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box5{
+    
+    background-image: url(assets/images/house2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box6{
+    
+    background-image: url(assets/images/house5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box7{
+    
+    background-image: url(assets/images/house4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box8{
+    
+    background-image: url(assets/images/house3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box p{
+    background-color: black;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    padding:5px 10px;
+}
+.about{
+    margin-block:25px;
+}
+.paragraph{
+    font-size: 11.5px;
+    margin-bottom: 30px;
+    color: rgba(69, 67, 67, 0.89);
+}
+
+.info1
+{
+    display:flex;
+    justify-content: space-between;
+}
+.info-box{
+    width: 24%;
+}
+.info-box img{
+    width: 100%;
+    filter: grayscale(80%);
+}
+.info-box h3{
+    margin-block: 15px;
+    font-size: medium;
+}
+#designation{
+    font-size: 11px;
+    color: rgb(152, 149, 149);
+    margin-block: 10px;
+}
+#describe{
+    
+    font-size: 11px;
+    
+    margin-block: 10px;
+}
+.info-box button{
+    width: 100%;
+    border-radius: 2px;
+    background-color: rgba(211, 211, 211, 0.42);
+    border-style: none;
+    padding: 5px 0px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.contact h3{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.contact p{
+    font-size: 12px;
+    margin-bottom: 1%;
+    font-weight:400;
+
+}
+.input{
+    width: 100%;
+    margin-block:5px;
+    
+
+}
+::placeholder{
+    font-size:smaller;
+    padding:3px;
+    
+}
+.contact button{
+    padding:3px 8px;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.874);
+    cursor: pointer;
+    font-size: 11px;
+    margin-bottom: 3%;
+    
+}
+.map img{
+    width: 100%;
+    height:90vh;
+    margin-bottom:5px;
+}
+.footer{
+    text-align: center;
+    padding:15px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.footer span{
+    
+    text-decoration:underline;
+    text-decoration-line: underline;
+}
+
+
